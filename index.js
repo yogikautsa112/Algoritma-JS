@@ -226,29 +226,32 @@ if (totalHarga > 100000) {
 }
 
 // No 5
-
 let jamLembur = 10
 
 if (jamLembur < 6 ) {
-    console.log ("Gaji anda Rp. 100.000,")
+    gaji = "Rp. 100.000,"
 }else if (jamLembur == 6) {
-    console.log ("Gaji anda Rp. 200.000,")
+    gaji = "Rp. 200.000,"
 }else if (jamLembur > 6) {
-    console.log ("Gaji anda Rp. 300.000,")
+    gaji = "Rp. 300.000,"
 }else {
-    console.log ("Anda tidak mendapat gaji")
+    gaji = "Anda tidak mendapat gaji"
 }
+
+console.log(`Jika anda lembur selama ${jamLembur} jam maka anda mendapat gaji sebesar ${gaji}`)
 
 // No 6
 
 let tinggiAir = 800.0
 
 if (tinggiAir <= 500.0 ) {
-    console.log("Status AMAN")
+    statusNya = "AMAN"
 }else if (tinggiAir <= 600.0)  {
-    console.log("Status WASPADA")
+    statusNya = "WASPADA"
 }else if (tinggiAir <= 650.0 ) {
-    console.log("Status SIAGA2")
+    statusNya = "SIAGA2"
 }else {
-    console.log("Status SIAGA1")
+    statusNya ="SIAGA1"
 }
+
+console.log(`Tinggi air sekarang adalah: ${tinggiAir} dan stastus nya adalah ${statusNya}`)
