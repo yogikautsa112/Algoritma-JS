@@ -207,7 +207,6 @@ if (saklar == 0) {
 console.log(hasil)
 
 // No 4 
-
 let barang_1 = 50000
 let barang_2 = 30000
 let barang_3 = 100000
