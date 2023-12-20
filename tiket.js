@@ -28,7 +28,16 @@ let keuntunganEKS = parseInt(eksekutif) * untungEKS
 let keuntunganEKO = parseInt(ekonomi) * untungEKO
 let totalUntung = keuntunganEKO + keuntunganEKS + keuntunganVip
 
-console.log(`Keuntungan VIP = ${keuntunganVip}% 
+// console.log(`Keuntungan VIP = ${keuntunganVip}% 
+// Keuntungan Eksekutif = ${keuntunganEKS}%
+// Keuntungan Ekonomi = ${keuntunganEKO}%
+// Keuntungan Total = ${totalUntung}%
+// Jumlah tiket VIP = ${VIP} 
+// Jumlah tiket Eksekutif = ${eksekutif}
+// Jumlah tiket Ekonomi = ${ekonomi}
+// Total tiket dari seluruh kelas = ${totalTiket}`)
+
+document.write(`Keuntungan VIP = ${keuntunganVip}%
 Keuntungan Eksekutif = ${keuntunganEKS}%
 Keuntungan Ekonomi = ${keuntunganEKO}%
 Keuntungan Total = ${totalUntung}%
@@ -36,12 +45,3 @@ Jumlah tiket VIP = ${VIP}
 Jumlah tiket Eksekutif = ${eksekutif}
 Jumlah tiket Ekonomi = ${ekonomi}
 Total tiket dari seluruh kelas = ${totalTiket}`)
-
-// document.write((`Keuntungan VIP = ${keuntunganVip}% 
-// Keuntungan Eksekutif = ${keuntunganEKS}%
-// Keuntungan Ekonomi = ${keuntunganEKO}%
-// Keuntungan Total = ${totalUntung}%
-// Jumlah tiket VIP = ${VIP} 
-// Jumlah tiket Eksekutif = ${eksekutif}
-// Jumlah tiket Ekonomi = ${ekonomi}
-// Total tiket dari seluruh kelas = ${totalTiket}`))
