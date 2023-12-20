@@ -22,26 +22,26 @@ if (ekonomi >= 1) {
     untungEKO = 7
 }
 
-let totalTiket = VIP + eksekutif + ekonomi
-let keuntunganVip = VIP * untungVip
-let keuntunganEKS = eksekutif * untungEKS
-let keuntunganEKO = ekonomi * untungEKO
+let totalTiket = parseInt(VIP) + parseInt(eksekutif) + parseInt(ekonomi)
+let keuntunganVip = parseInt(VIP) * untungVip
+let keuntunganEKS = parseInt(eksekutif) * untungEKS
+let keuntunganEKO = parseInt(ekonomi) * untungEKO
 let totalUntung = keuntunganEKO + keuntunganEKS + keuntunganVip
 
-// console.log(`Keuntungan VIP = ${keuntunganVip}% 
-// Keuntungan Eksekutif = ${keuntunganEKS}%
-// Keuntungan Ekonomi = ${keuntunganEKO}%
-// Keuntungan Total = ${totalUntung}%
-// Jumlah tiket VIP = ${VIP} 
-// Jumlah tiket Eksekutif = ${eksekutif}
-// Jumlah tiket Ekonomi = ${ekonomi}
-// Total tiket dari seluruh kelas = ${totalTiket}`)
-
-document.write((`Keuntungan VIP = ${keuntunganVip}% 
+console.log(`Keuntungan VIP = ${keuntunganVip}% 
 Keuntungan Eksekutif = ${keuntunganEKS}%
 Keuntungan Ekonomi = ${keuntunganEKO}%
 Keuntungan Total = ${totalUntung}%
 Jumlah tiket VIP = ${VIP} 
 Jumlah tiket Eksekutif = ${eksekutif}
 Jumlah tiket Ekonomi = ${ekonomi}
-Total tiket dari seluruh kelas = ${totalTiket}`))
+Total tiket dari seluruh kelas = ${totalTiket}`)
+
+// document.write((`Keuntungan VIP = ${keuntunganVip}% 
+// Keuntungan Eksekutif = ${keuntunganEKS}%
+// Keuntungan Ekonomi = ${keuntunganEKO}%
+// Keuntungan Total = ${totalUntung}%
+// Jumlah tiket VIP = ${VIP} 
+// Jumlah tiket Eksekutif = ${eksekutif}
+// Jumlah tiket Ekonomi = ${ekonomi}
+// Total tiket dari seluruh kelas = ${totalTiket}`))
