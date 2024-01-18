@@ -25,7 +25,7 @@ const input = Number(prompt('Masukan kode pegawai (11 digit) : '))
 const golongan = Math.floor(input % 100000000000 / 10000000000)
 const tgl = Math.floor(input % 10000000000 / 100000000)
 const bln = Math.floor(input % 100000000 / 1000000)
-const thn = Math.floor(input % 1000000 / 10000)
+const thn = Math.floor(input % 1000000 / 100)
 const nn = Math.floor(input % 10000)
 
 if (golongan >=1 && golongan <= 4) {
@@ -44,7 +44,8 @@ if (golongan >=1 && golongan <= 4) {
         case 11: bulanName = 'NOV'; break;
         case 12: bulanName = 'DES'; break;
         default: bulanName = 'Invalid';
-    } console.log(`${input} adalah seorang pegawai bergolongan ${golongan}, lahir pada tanggal ${tgl} ${bulanName} ${thn} dan bernomor urut ${3}`)
+    } console.log(`${input} adalah seorang pegawai bergolongan ${golongan}, 
+    lahir pada tanggal ${tgl} ${bulanName} ${thn} dan bernomor urut ${nn}`)
 } else {
     console.log('Golongan tidak valid.')
 }
