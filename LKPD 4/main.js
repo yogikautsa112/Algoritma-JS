@@ -1,5 +1,5 @@
 // No 1
-const PABP = 70 
+const PABP = 70
 const MTK = 82
 const DPK = 77
 
