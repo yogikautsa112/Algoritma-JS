@@ -51,3 +51,24 @@ if (golongan >=1 && golongan <= 4) {
 }
 
 // No 3
+let j = Number(prompt('Input Jam : '))
+let m = Number(prompt('Input Menit : '))
+let d = Number(prompt('Input Detik : ')) + 1;
+
+let hasilM = m
+
+if (d > 59) {
+    d = 0
+    hasilM = m + 1
+}
+if (hasilM > 59) {
+    hasilM = 0
+    j = j + 1
+}
+if (j > 23) {
+    j = 0
+    hasilM = 0
+    d = 0
+}
+
+console.log(`${j}:${hasilM}:${d}`)
